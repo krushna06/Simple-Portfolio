@@ -1,0 +1,19 @@
+{
+	"$schema": "https://openapi.vercel.sh/vercel.json",
+	"version": 2,
+	"alias": "moggaming.me",
+	"cleanUrls": true,
+	"public": true,
+	"regions": ["lhr1"],
+	"redirects": [
+		{ "source": "/calendar", "destination": "" },
+		{ "source": "/cv", "destination": "" },
+		{ "source": "/github", "destination": "https://github.com/krushna06" },
+		{ "source": "/linkedin", "destination": "" },
+		{ "source": "/meeting", "destination": "" },
+		{ "source": "/portfolio", "destination": "/projects" },
+		{ "source": "/resume", "destination": "" },
+		{ "source": "/schedule", "destination": "" },
+		{ "source": "/twitter", "destination": "" }
+	]
+}
